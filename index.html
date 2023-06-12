@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -88,28 +89,29 @@
 
         <div class="autoplay">
             <div class="slider_items">
-                <div class="item">
+                <div class="item" data-aos="zoom-in" data-aos-duration="600">
                     <div class="color_opacity"><p class="text_opacity">СМОТРЕТЬ ПРОЕКТ</p></div>
-                    <img src="img/slider/example1.png"></div>
-                <div>
+                    <img src="img/slider/example1.png">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="900">
                     <p class="slider_name">АРГОС</p>
                     <p class="slider_information">Оптовые поставки химической продукции в промышленности </p>
                 </div>
             </div>
             <div class="slider_items">
-                <div class="item">
+                <div class="item" data-aos="zoom-in" data-aos-duration="600">
                     <div class="color_opacity"><p class="text_opacity">СМОТРЕТЬ ПРОЕКТ</p></div>
                     <img src="img/slider/example2.png"></div>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="900">
                     <p class="slider_name">ВИДЕОСЪЕМКА СВАДЕБ</p>
                     <p class="slider_information">Предоставление услуг видеосъемки</p>
                 </div>
             </div>
             <div class="slider_items">
-                <div class="item">
+                <div class="item" data-aos="zoom-in" data-aos-duration="600">
                     <div class="color_opacity"><p class="text_opacity">СМОТРЕТЬ ПРОЕКТ</p></div>
                     <img src="img/slider/example3.png"></div>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="900">
                     <p class="slider_name">OMBT POOL</p>
                     <p class="slider_information">Продажа токенов </p>
                 </div>
@@ -187,7 +189,7 @@
             <div class="cards_description">Обратите внимание, чтобы точно назвать стоимость проекта, нам надо
                 созвониться и обсудить детали, после чего формируется коммерческое предложение.
             </div>
-            <div class="cards_services">
+            <div class="cards_services" data-aos="zoom-in" data-aos-duration="600">
                 <div class="flex_card"><p class="card_name">Лендинг</p>
                     <p class="card_info">Имиджевые лендинги, посадочные страницы, сайты-визитки, промо. Состоит обычно
                         из 7 — 12 блоков</p></div>
@@ -195,7 +197,7 @@
                     <button class="card_button">Выбрать</button>
                 </div>
             </div>
-            <div class="cards_services">
+            <div class="cards_services" data-aos="zoom-in" data-aos-duration="600">
                 <div class="flex_card"><p class="card_name">Лендинг</p>
                     <p class="card_info">Имиджевые лендинги, посадочные страницы, сайты-визитки, промо. Состоит обычно
                         из 7 — 12 блоков</p></div>
@@ -203,7 +205,7 @@
                     <button class="card_button">Выбрать</button>
                 </div>
             </div>
-            <div class="cards_services">
+            <div class="cards_services" data-aos="zoom-in" data-aos-duration="600">
                 <div class="flex_card"><p class="card_name">Лендинг</p>
                     <p class="card_info">Имиджевые лендинги, посадочные страницы, сайты-визитки, промо. Состоит обычно
                         из 7 — 12 блоков</p></div>
@@ -211,7 +213,7 @@
                     <button class="card_button">Выбрать</button>
                 </div>
             </div>
-            <div class="cards_services">
+            <div class="cards_services" data-aos="zoom-in" data-aos-duration="600">
                 <div class="flex_card"><p class="card_name">Лендинг</p>
                     <p class="card_info">Имиджевые лендинги, посадочные страницы, сайты-визитки, промо. Состоит обычно
                         из 7 — 12 блоков</p></div>
@@ -219,7 +221,7 @@
                     <button class="card_button">Выбрать</button>
                 </div>
             </div>
-            <div class="cards_services">
+            <div class="cards_services" data-aos="zoom-in" data-aos-duration="600">
                 <div class="flex_card"><p class="card_name">Лендинг</p>
                     <p class="card_info">Имиджевые лендинги, посадочные страницы, сайты-визитки, промо. Состоит обычно
                         из 7 — 12 блоков</p></div>
@@ -288,10 +290,13 @@
         <div class="privacy_policy"><a href="">Политика конфиденциальности</a></div>
     </div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

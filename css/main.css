@@ -1015,4 +1015,22 @@ footer{
     font-size: 18px;
     line-height: 130%;
 }
-
+a{
+    text-decoration: none;
+    position: relative;
+}
+li a::before{
+    content: '';
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 0;
+    height: 1px;
+    box-shadow: 0px 1px 2px #414242;
+    background-color: #414242;
+    transition: 0.5s;
+}
+li a:hover::before{
+    width: 100%;
+    left: 0;
+}
